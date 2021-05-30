@@ -1,0 +1,22 @@
+.sidebar_bg {
+  background: #EAEAEA; }
+
+.t_gray {
+  color: #A6ABB2; }
+
+.sidebar_active {
+  background: #F5F5F5; }
+
+.t_black {
+  color: #000; }
+
+html, body {
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden; }
+
+.sidebar {
+  width: 300px; }
+  @media screen and (max-width: 500px) {
+    .sidebar {
+      width: 50px; } }
