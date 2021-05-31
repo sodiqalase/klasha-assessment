@@ -11,12 +11,12 @@ const Navbar = () => {
 				<img
 					src={require("../assets/svgs/notification.svg").default}
 					alt="notification"
-					className="w-12 mr-4"
+					className="w-12 mobiles:w-10 mr-4"
 				/>
 				<img
 					src={require("../assets/svgs/profile picture.svg").default}
 					alt="profile picture"
-					className="w-12"
+					className="w-12 mobiles:w-10"
 				/>
 			</div>
 		</nav>
