@@ -23,12 +23,16 @@ const Sidebar = () => {
 	});
 
 	return (
-		<section className="h-screen max-h-screen sidebar sidebar_bg bg-red-400 pt-8 overflow-y-auto overflow-x-hidden">
+		<section className="h-screen max-h-screen sidebar sidebar_bg pt-8 overflow-y-auto overflow-x-hidden">
 			<h1 className="mb-3 mobiles:px-1 mobiles:w-full pl-8">
-				<img src={require("../assets/svgs/klasha logo.svg").default} className="" alt="" />
+				<img
+					src={require("../assets/svgs/klasha logo.svg").default}
+					className="w-32 mobiles:w-full"
+					alt=""
+				/>
 			</h1>
 			<div>
-				<h6 className="mt-6 mobiles:px-2 mb-6 t_black font-bold mobiles:text-xs pl-8">
+				<h6 className="mt-10 mobiles:px-2 mb-6 t_black font-bold small_mobile_text pl-8">
 					Main Pages
 				</h6>
 				<ul className="">
@@ -59,7 +63,7 @@ const Sidebar = () => {
 				</ul>
 			</div>
 			<div className="mt-8">
-				<h6 className="mt-6 mobiles:px-2 mb-6 t_black font-bold mobiles:text-xs pl-8">
+				<h6 className="mt-6 mobiles:px-2 mb-6 t_black font-bold small_mobile_text pl-8">
 					General
 				</h6>
 				<ul className="">

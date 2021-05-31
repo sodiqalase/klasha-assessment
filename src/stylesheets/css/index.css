@@ -10,13 +10,128 @@
 .t_black {
   color: #000; }
 
+@font-face {
+  font-family: "Founder";
+  src: url("./../../assets/fonts/founders-grotesk-web-light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Space";
+  src: url("./../../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("ttf"); }
+
 html, body {
   width: 100vw;
   max-width: 100vw;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: "Founder", -apple-system, BlinkMacSystemFont, Segoe UI,		Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,		sans-serif; }
 
 .sidebar {
   width: 300px; }
   @media screen and (max-width: 500px) {
     .sidebar {
       width: 50px; } }
+
+@media screen and (max-width: 500px) {
+  .small_mobile_text {
+    font-size: 10px; } }
+
+.funds_width {
+  width: 700px;
+  max-width: 700px; }
+  @media screen and (max-width: 500px) {
+    .funds_width {
+      width: auto; } }
+
+.search_width {
+  width: 300px;
+  max-width: 300px; }
+  @media screen and (max-width: 500px) {
+    .search_width {
+      width: 100%;
+      margin-bottom: 15px;
+      max-width: 100%; } }
+
+.pos_center {
+  top: 50%;
+  transform: translateX(-50%);
+  right: 10px; }
+
+.space {
+  font-family: "Space", -apple-system, BlinkMacSystemFont, Segoe UI,		Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,		sans-serif; }
+
+.refactored-table {
+  margin-top: 40px;
+  border-collapse: separate;
+  border-spacing: 0px 9px; }
+  @media (max-width: 500px) {
+    .refactored-table {
+      width: 600px; } }
+
+.refactored-table tr th {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left; }
+
+.refactored-table thead tr th {
+  font-size: 18px;
+  background: #F5F5F5; }
+
+.refactored-table thead tr th:first-child {
+  border-top-left-radius: 10px;
+  padding-left: 20px; }
+
+.refactored-table thead tr th:last-child {
+  border-top-right-radius: 10px;
+  text-align: right;
+  padding-right: 20px; }
+
+.refactored-table tbody tr td {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 25px;
+  background: #fff;
+  padding-top: 25px;
+  border: 0px solid #F5F5F5;
+  border-bottom-width: 2px; }
+
+.refactored-table tbody tr {
+  position: relative; }
+  .refactored-table tbody tr td {
+    border-top: 2px solid transparent;
+    border-bottom-color: F5F5F5; }
+  .refactored-table tbody tr td:first-child {
+    border-left: 2px solid transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px; }
+  .refactored-table tbody tr td:last-child {
+    border-right: 2px solid transparent;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px; }
+
+.refactored-table tbody tr:hover {
+  box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.4); }
+  .refactored-table tbody tr:hover td {
+    border-top: 2px solid #3D8F83;
+    border-bottom: 2px solid #3D8F83; }
+  .refactored-table tbody tr:hover td:first-child {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-left: 2px solid #3D8F83; }
+  .refactored-table tbody tr:hover td:last-child {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-right: 2px solid #3D8F83; }
+
+.refactored-table tbody tr td:first-child {
+  padding-left: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px; }
+
+.refactored-table tbody tr td:last-child {
+  padding-right: 20px;
+  text-align: right;
+    text-align-border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; }
+
+.show_more {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; }
